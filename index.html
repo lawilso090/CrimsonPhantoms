@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Crimson Phantoms</title>
+  <meta name="description" content="The Crimson Phantoms – a private Discord community built around precision, discretion, and control." />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
+    body { background: #0a0a0a; color: #f5f5f5; line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+
+    header {
+      min-height: 100vh;
+      background: linear-gradient(135deg, rgba(120,0,0,0.4), rgba(0,0,0,0.9));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      max-width: 600px;
+      margin: 20px auto 40px;
+      color: #ccc;
+      font-size: 1.1rem;
+    }
+
+    .btns a {
+      display: inline-block;
+      margin: 10px;
+      padding: 14px 30px;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn-primary {
+      background: #9b111e;
+    }
+
+    .btn-primary:hover { background: #b31322; }
+
+    .btn-outline {
+      border: 2px solid #9b111e;
+    }
+
+    .btn-outline:hover {
+      background: #9b111e;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 80px 20px;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 50px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: #121212;
+      border: 1px solid #222;
+      border-radius: 16px;
+      padding: 30px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: #9b111e;
+    }
+
+    .card h3 {
+      margin-bottom: 15px;
+      color: #ffdddd;
+    }
+
+    .packages {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+
+    .package {
+      background: #121212;
+      border-radius: 18px;
+      border: 1px solid #222;
+      padding: 30px;
+    }
+
+    .package h3 { color: #ffdddd; margin-bottom: 10px; }
+    .package ul { margin: 15px 0 25px; }
+    .package li { margin: 8px 0; color: #ccc; }
+
+    footer {
+      background: #050505;
+      padding: 30px 20px;
+      text-align: center;
+      color: #777;
+      border-top: 1px solid #222;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>The Crimson Phantoms</h1>
+    <p>A private Discord community built around precision, discretion, and control.</p>
+    <div class="btns">
+      <a href="#" class="btn-primary">Join Discord</a>
+      <a href="#packages" class="btn-outline">View Packages</a>
+    </div>
+  </div>
+</header>
+
+<section>
+  <h2>What We Offer</h2>
+  <div class="features">
+    <div class="card">
+      <h3>Secure Community</h3>
+      <p>Verified members only. Privacy and structure come first.</p>
+    </div>
+    <div class="card">
+      <h3>Tiered Packages</h3>
+      <p>Multiple access levels designed for different needs.</p>
+    </div>
+    <div class="card">
+      <h3>Dedicated Support</h3>
+      <p>Organized ticket system with active staff.</p>
+    </div>
+    <div class="card">
+      <h3>Constant Updates</h3>
+      <p>We continuously improve and evolve our services.</p>
+    </div>
+  </div>
+</section>
+
+<section id="packages">
+  <h2>Packages</h2>
+  <div class="packages">
+    <div class="package">
+      <h3>Starter</h3>
+      <ul>
+        <li>Entry-level access</li>
+        <li>Limited features</li>
+        <li>No extras</li>
+      </ul>
+    </div>
+    <div class="package">
+      <h3>Standard</h3>
+      <ul>
+        <li>Improved access</li>
+        <li>Additional features</li>
+        <li>Priority support</li>
+      </ul>
+    </div>
+    <div class="package">
+      <h3>Phantom</h3>
+      <ul>
+        <li>Full access</li>
+        <li>Premium features</li>
+        <li>Bonus perks</li>
+      </ul>
+    </div>
+    <div class="package">
+      <h3>Elite</h3>
+      <ul>
+        <li>Maximum access</li>
+        <li>All features unlocked</li>
+        <li>Exclusive content</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 The Crimson Phantoms. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
